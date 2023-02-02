@@ -31,7 +31,7 @@ if (mysqli_connect_errno()){
                                 <div class="mb-3">
                                     <label class="mb-2 text-muted" for="name">
                                         <i class="bi bi-person"></i> ID BUKU</label>
-                                    <input id="id_buku" type="text" class="form-control" name="id_buku" value="<?php echo $data_buku["ID_BUKU"];?>" required autofocus readyonly>
+                                    <input readonly id="id_buku" type="text" class="form-control" name="id_buku" value="<?php echo $data_buku["ID_BUKU"];?>" required autofocus readyonly>
                                 </div>
 
                                 <div class="mb-3">
